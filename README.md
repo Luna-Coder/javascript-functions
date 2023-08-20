@@ -40,7 +40,7 @@ The code between the equals sign and the semicolon is an `expression`. The paren
 
 ### Ways To Write Functions...
 
-**Named Function aka Function Declaration**
+**`Named Function` aka Function Declaration**
 ```
 function myFirstFunction(parameter1, parameter2) {
     statement one;
@@ -51,7 +51,7 @@ function myFirstFunction(parameter1, parameter2) {
 }
 ```
 
-**Anonymous Function aka Function Expression**
+**`Anonymous Function` aka Function Expression**
 ```
 let mySecondFunction = function(parameter1, parameter2) {
     statement one;
@@ -62,7 +62,7 @@ let mySecondFunction = function(parameter1, parameter2) {
 };
 ```
 
-**Immediately Invoked Function Expression aka IIFE**
+**`Immediately Invoked Function Expression` aka IIFE**
 ```
 let myThirdFunction = ( function() {
     statement one;
