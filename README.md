@@ -70,7 +70,7 @@ let myThirdFunction = ( function() {
     // comments about my code
     
     return;
-}**`()`** );
+} () );
 ```
 The final parenthesis **`()`** after the closing curly brace `}` of the code block tells the interpreter to call the function **immediately**.
 
