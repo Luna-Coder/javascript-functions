@@ -70,9 +70,9 @@ let myThirdFunction = ( function() {
     // comments about my code
     
     return;
-}() );
+}**()** );
 ```
-The final parenthesis after the closing curly brace `}` of the code block tells the interpreter to call the function **immediately**.
+The final parenthesis **`()`** after the closing curly brace `}` of the code block tells the interpreter to call the function **immediately**.
 
 The grouping operators are there to ensure the interpreter treats the function as an **expression**.
 
