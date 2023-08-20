@@ -98,7 +98,7 @@ let myFourthFunction = (x) => {
 ```
 Or
 ```
-let myFourthFunction = (x) = x * x;
+let myFourthFunction = (x) => x * x;
 ```
 
 The `()` are optional if only a single argument is passed.
@@ -122,6 +122,7 @@ A JavaScript function can be invoked without being called (think IIFE's)
 * A **binding** is a variable in JavaScript and requires a name.
 * An empty `return` statement or the absence of one, causes a function to return a value of `undefined`.
 * Function **Parameters** vs Function **Arguments**???
+  * Parameters are the values a function may accept, whereas Arguments are the values that are passed into a function. 
 * callback functions
 * lambda functions
 
