@@ -19,8 +19,8 @@ The purpose of other statements is to control the flow of the program, these are
 
 
 The following is an example of an `if` statement:
-```
-var x;
+```js
+let x;
 
 if (y >= 0) {
     x = y;
@@ -29,8 +29,8 @@ if (y >= 0) {
 }
 ```
 Expressions have an analog, the conditional operator. The above statements are equivalent to the following statement.
-```
-var x = (y >= 0 ? y : -y);
+```js
+let x = (y >= 0 ? y : -y);
 ```
 The code between the equals sign and the semicolon is an `expression`. The parentheses are not necessary, but I find the conditional operator easier to read if I put it in parenthesis.
 
@@ -41,7 +41,7 @@ The code between the equals sign and the semicolon is an `expression`. The paren
 ### Ways To Write Functions...
 
 **`Named Function` aka Function Declaration**
-```
+```js
 function myFirstFunction(parameter1, parameter2) {
     statement one;
     statement two;
@@ -52,7 +52,7 @@ function myFirstFunction(parameter1, parameter2) {
 ```
 
 **`Anonymous Function` aka Function Expression**
-```
+```js
 let mySecondFunction = function(parameter1, parameter2) {
     statement one;
     statement two;
@@ -63,7 +63,7 @@ let mySecondFunction = function(parameter1, parameter2) {
 ```
 
 **`Immediately Invoked Function Expression` aka IIFE**
-```
+```js
 let myThirdFunction = ( function() {
     statement one;
     statement two;
@@ -76,7 +76,7 @@ The final parenthesis **`()`** after the closing curly brace `}` of the code blo
 
 The grouping operators are there to ensure the interpreter treats the function as an **expression**.
 
-**Arrow Functions**
+### Arrow Functions
 
 Arrow functions make it possible to write small **function expressions** in a less verbose fashion.
 
@@ -87,7 +87,7 @@ They have the following general form:
 This creates a function `func` that has arguments `arg1..argN`, evaluates the `expression` on the right side with their use and returns its result.
 
 Examples:
-```
+```js
 let myFourthFunction = (x) => { 
     statement one;
     statement two;
@@ -97,7 +97,7 @@ let myFourthFunction = (x) => {
 };
 ```
 Or
-```
+```js
 let myFourthFunction = (x) => x * x;
 ```
 
