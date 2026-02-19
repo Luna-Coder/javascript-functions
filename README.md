@@ -125,7 +125,7 @@ let myFourthFunction = (x) => x * x;
 
 ## Function Invocation
 
-- The code inside a JavaScript function will execute when "something" invokes it.
+- The code inside a JavaScript function will `execute` when "something" `invokes` it.
 
 - A JavaScript function can be `invoked` without being `called` (think IIFE's) 
 
