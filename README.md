@@ -12,7 +12,7 @@
 
 - A JavaScript program is a list of programming statements.
 
-- The purpose of other statements is to control the flow of the program, these are known as *control statements* such as `if` or `if-else` statements.
+- The purpose of other statements is to control the flow of the program, these are known as `control statements` such as `if` or `if-else` statements. Loops are also `statements`.
   
 
 ### JavaScript `expressions`
@@ -35,11 +35,11 @@ if (y >= 0) {
 }
 ```
 
-Expressions have an analog, the conditional operator. The above statements are equivalent to the following statement.
+JavaScript `expressions` have an analog, the conditional (ternary) operator `(? :)`. The above statements are equivalent to the following statement.
 ```js
 let x = (y >= 0 ? y : -y);
 ```
-The code between the equals sign and the semicolon is an `expression`. The parentheses are not necessary, but I find the conditional operator easier to read if I put it in parenthesis.
+The code between the assignment operator (`=`) and the semicolon (`;`) is an `expression`. The parentheses `()` are not necessary, but I find the conditional (ternay) operator `(? :)` easier to read if I put it in parenthesis.
 
 
 ---
@@ -87,7 +87,7 @@ The grouping operators are there to ensure the interpreter treats the function a
 
 ### ES6 Function Shorthand aka `Arrow Functions`
 
-Arrow functions make it possible to write small **function expressions** in a less verbose fashion.
+Arrow functions make it possible to write small `function expressions` in a less verbose fashion.
 
 They have the following general form:
 
@@ -123,6 +123,17 @@ The code inside a JavaScript function will execute when "something" invokes it.
 
 A JavaScript function can be invoked without being called (think IIFE's) 
 
+---
+
+## Food for Thought
+
+- Wherever JavaScript expects a `statement`, you can also write an `expression`.
+
+- Such a `statement` is called an `expression statement`.
+
+- The reverse does not hold: you cannot write a `statement` where JavaScript expects an `expression`.
+
+- For example, an `if-statement` cannot become the `argument` of a `function`.
 
 ---
 
@@ -139,5 +150,6 @@ A JavaScript function can be invoked without being called (think IIFE's)
 
 * lambda functions
 
+---
 
-
+Credits: https://2ality.com/2012/09/expressions-vs-statements.html
