@@ -1,6 +1,4 @@
-# JavaScript Functions
-
-## Statements, Expressions, & Declarations...
+# JavaScript Functions, Statements, Expressions, & Declarations...
 
 ### JavaScript `statements`
 
