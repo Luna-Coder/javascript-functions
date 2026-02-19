@@ -133,7 +133,7 @@ let myFourthFunction = (x) => x * x;
 
 - Wherever JavaScript expects a `statement`, you can also write an `expression`.
 
-- Such a `statement` is called an `expression statement`.
+- Such a `statement` is called an `expression statement`, (e.g. `function` call).
 
 - The reverse does not hold: you CANNOT write a `statement` where JavaScript expects an `expression`.
 
