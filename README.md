@@ -22,7 +22,9 @@
 
 ### JavaScript `declarations`
 
-- A `declaration` is a `statement` that describes an identifier, such as the name of a variable or a function. Declarations are important because they inform the compiler or interpreter what the identifying word means, and how the identified thing should be used.
+- A `declaration` is a `statement` that describes an identifier, such as the name of a `variable` or a `function`.
+
+- JavaScript `declarations` are important because they inform the compiler or interpreter what the identifying word means, and how the identified thing should be used.
 
 The following is an example of an `if-statement`:
 ```js
@@ -35,11 +37,13 @@ if (y >= 0) {
 }
 ```
 
-JavaScript `expressions` have an analog, the conditional (ternary) operator `(? :)`. The above statements are equivalent to the following statement.
+- JavaScript `expressions` have an analog, the conditional (ternary) operator `(? :)`. The above `statements` are equivalent to the following `statement`.
 ```js
 let x = (y >= 0 ? y : -y);
 ```
-The code between the assignment operator (`=`) and the semicolon (`;`) is an `expression`. The parentheses `()` are not necessary, but I find the conditional (ternay) operator `(? :)` easier to read if I put it in parenthesis.
+- The code between the assignment operator (`=`) and the semicolon (`;`) is an `expression`.
+
+- The parentheses `()` are not necessary, but I find the conditional (ternay) operator `(? :)` easier to read if I put it in parenthesis.
 
 
 ---
