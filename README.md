@@ -89,7 +89,7 @@ let myThirdFunction = ( function() {
 
 
 
-### ES6 Function Shorthand aka `Arrow Functions`
+### ES6 Function `Shorthand Notation` aka `Arrow Functions`
 
 - Arrow functions make it possible to write small `function expressions` in a less verbose fashion.
 
@@ -127,7 +127,7 @@ let myFourthFunction = (x) => x * x;
 
 - The code inside a JavaScript function will `execute` when "something" `invokes` it.
 
-- A JavaScript function can be `invoked` without being `called` (think IIFE's) 
+- A JavaScript function can be `invoked` without being `called` (think `IIFE's`) 
 
 ---
 
