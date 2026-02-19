@@ -1,24 +1,30 @@
 # JavaScript Functions
 
-### Statements, Expressions, & Declarations...
+## Statements, Expressions, & Declarations...
 
-A computer program is a list of "_instructions_" to be "_executed_" by a computer.
+### JavaScript `statements`
 
-In a programming language, these programming instructions are called `statements`.
+- Roughly speaking, a `statement` specifies an action. It can be defined as a line of code or a block of code. _Usually_ ends with a semicolon `;`. (more on this later).
 
-A JavaScript program is a list of programming statements.
+- A computer program is a list of "_instructions_" to be "_executed_" by a computer.
+
+- In a programming language, these programming instructions are called `statements`.
+
+- A JavaScript program is a list of programming statements.
+
+- The purpose of other statements is to control the flow of the program, these are known as *control statements* such as `if` or `if-else` statements.
+  
+
+### JavaScript `expressions`
+
+- An `expression` is any valid unit of code that resolves to a single value.
 
 
-**Statement** = Roughly speaking, a statement specifies an action, can be defined as a line of code or a block of code. _Usually_ end with a semicolon `;`. (more on this later)
+### JavaScript `declarations`
 
-The purpose of other statements is to control the flow of the program, these are known as control statements such as `if` or `if-else` statements.
+- A `declaration` is a `statement` that describes an identifier, such as the name of a variable or a function. Declarations are important because they inform the compiler or interpreter what the identifying word means, and how the identified thing should be used.
 
-**Expression** = An expression is any valid unit of code that resolves to a single value.
-
-**Declaration** = a declaration is a `statement` that describes an identifier, such as the name of a variable or a function. Declarations are important because they inform the compiler or interpreter what the identifying word means, and how the identified thing should be used.
-
-
-The following is an example of an `if` statement:
+The following is an example of an `if-statement`:
 ```js
 let x;
 
@@ -28,6 +34,7 @@ if (y >= 0) {
     x = -y;
 }
 ```
+
 Expressions have an analog, the conditional operator. The above statements are equivalent to the following statement.
 ```js
 let x = (y >= 0 ? y : -y);
@@ -38,45 +45,47 @@ The code between the equals sign and the semicolon is an `expression`. The paren
 ---
 
 
-### Ways To Write Functions...
+## Ways To Write Functions...
 
-**`Named Function` aka Function Declaration**
+### `Named Functions` aka `Function Declarations`
 ```js
 function myFirstFunction(parameter1, parameter2) {
     statement one;
     statement two;
     // comments about my code
     
-    return;
+    return ___;
 }
 ```
 
-**`Anonymous Function` aka Function Expression**
+### `Anonymous Functions` aka `Function Expressions`
 ```js
 let mySecondFunction = function(parameter1, parameter2) {
     statement one;
     statement two;
     // comments about my code
     
-    return;
+    return ___;
 };
 ```
 
-**`Immediately Invoked Function Expression` aka IIFE**
+### `Immediately Invoked Function Expressions` aka `IIFEs`
 ```js
 let myThirdFunction = ( function() {
     statement one;
     statement two;
     // comments about my code
     
-    return;
+    return ___;
 } () );
 ```
-The final parenthesis **`()`** after the closing curly brace `}` of the code block tells the interpreter to call the function **immediately**.
+The final parenthesis `()` after the closing curly brace `}` of the code block tells the interpreter to call the function **<ins>immediately</ins>**.
 
-The grouping operators are there to ensure the interpreter treats the function as an **expression**.
+The grouping operators are there to ensure the interpreter treats the function as an `expression`.
 
-### Arrow Functions
+
+
+### ES6 Function Shorthand aka `Arrow Functions`
 
 Arrow functions make it possible to write small **function expressions** in a less verbose fashion.
 
@@ -93,7 +102,7 @@ let myFourthFunction = (x) => {
     statement two;
     // comments about my code
     
-    return;
+    return ___;
 };
 ```
 Or
@@ -108,7 +117,7 @@ The `()` are optional if only a single argument is passed.
 ---
 
 
-### Function Invocation
+## Function Invocation
 
 The code inside a JavaScript function will execute when "something" invokes it.
 
@@ -117,13 +126,17 @@ A JavaScript function can be invoked without being called (think IIFE's)
 
 ---
 
-### Miscellaneous 
+## Miscellaneous 
 
 * A **binding** is a variable in JavaScript and requires a name.
+  
 * An empty `return` statement or the absence of one, causes a function to return a value of `undefined`.
-* Function **Parameters** vs Function **Arguments**???
-  * Parameters are the values a function may accept, whereas Arguments are the values that are passed into a function. 
+
+* Function `parameters` vs Function `arguments`?
+  * `parameters` are the values a function may <ins>accept</ins>; whereas, `arguments` are the values that are <ins>passed</ins> into a function.
+
 * callback functions
+
 * lambda functions
 
 
