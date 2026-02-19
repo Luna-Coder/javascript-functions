@@ -83,21 +83,23 @@ let myThirdFunction = ( function() {
     return ___;
 } () );
 ```
-The final parenthesis `()` after the closing curly brace `}` of the code block tells the interpreter to call the function **<ins>immediately</ins>**.
+- The final parenthesis `()` after the closing curly brace `}` of the code block tells the interpreter to call the function **<ins>immediately</ins>**.
 
-The grouping operators are there to ensure the interpreter treats the function as an `expression`.
+- The grouping operators are there to ensure the interpreter treats the function as an `expression`.
 
 
 
 ### ES6 Function Shorthand aka `Arrow Functions`
 
-Arrow functions make it possible to write small `function expressions` in a less verbose fashion.
+- Arrow functions make it possible to write small `function expressions` in a less verbose fashion.
 
-They have the following general form:
+- They have the following general form:
 
-`let func = (arg1, arg2, ...argN) => expression`
+```js
+let func = (arg1, arg2, ...argN) => expression;
+```
 
-This creates a function `func` that has arguments `arg1..argN`, evaluates the `expression` on the right side with their use and returns its result.
+- This creates a function `func` that has arguments `arg1..argN`, evaluates the `expression` on the right side with their use and returns its result.
 
 Examples:
 ```js
@@ -114,7 +116,7 @@ Or
 let myFourthFunction = (x) => x * x;
 ```
 
-The `()` are optional if only a single argument is passed.
+- The `()` are optional if only a single argument is passed.
 
 
 
@@ -123,9 +125,9 @@ The `()` are optional if only a single argument is passed.
 
 ## Function Invocation
 
-The code inside a JavaScript function will execute when "something" invokes it.
+- The code inside a JavaScript function will execute when "something" invokes it.
 
-A JavaScript function can be invoked without being called (think IIFE's) 
+- A JavaScript function can be `invoked` without being `called` (think IIFE's) 
 
 ---
 
@@ -135,7 +137,7 @@ A JavaScript function can be invoked without being called (think IIFE's)
 
 - Such a `statement` is called an `expression statement`.
 
-- The reverse does not hold: you cannot write a `statement` where JavaScript expects an `expression`.
+- The reverse does not hold: you CANNOT write a `statement` where JavaScript expects an `expression`.
 
 - For example, an `if-statement` cannot become the `argument` of a `function`.
 
@@ -143,7 +145,7 @@ A JavaScript function can be invoked without being called (think IIFE's)
 
 ## Miscellaneous 
 
-* A **binding** is a variable in JavaScript and requires a name.
+* A `binding` is a `variable` in JavaScript and requires a name.
   
 * An empty `return` statement or the absence of one, causes a function to return a value of `undefined`.
 
